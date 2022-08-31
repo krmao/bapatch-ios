@@ -21,26 +21,26 @@ pod 'bspatch-ios'
 ```
 
 ## Quick use
-
+> the details please see the exmples project
 
 ```
-    #import "BSPatch.h"
-    
-    // bsdiff
-    int bsdiffResult = bsdiff([oldPath UTF8String], [newPath UTF8String], [patchPath UTF8String]);
-    NSLog(@"bsdiffResult = %d", bsdiffResult);
+#import "BSPatch.h"
 
-    NSData *patchData = [NSData dataWithContentsOfFile:patchPath];
-    NSLog(@"patchData = %@", patchData);
+// bsdiff
+int bsdiffResult = bsdiff([oldPath UTF8String], [newPath UTF8String], [patchPath UTF8String]);
+NSLog(@"bsdiffResult = %d", bsdiffResult);
 
-    // bspatch
-    int bspatchResult = bspatch([oldPath UTF8String], [new2Path UTF8String], [patchPath UTF8String]);
-    NSLog(@"bspatchResult = %d", bspatchResult);
+NSData *patchData = [NSData dataWithContentsOfFile:patchPath];
+NSLog(@"patchData = %@", patchData);
+
+// bspatch
+int bspatchResult = bspatch([oldPath UTF8String], [new2Path UTF8String], [patchPath UTF8String]);
+NSLog(@"bspatchResult = %d", bspatchResult);
 ```
 
 ## Author
 
-krmao, kr.mao@trip.com
+krmao, kr.mao@qq.com
 
 ## License
 
