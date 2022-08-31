@@ -38,6 +38,21 @@ int bspatchResult = bspatch([oldPath UTF8String], [new2Path UTF8String], [patchP
 NSLog(@"bspatchResult = %d", bspatchResult);
 ```
 
+## Steps of push lib to CocosPods
+
+- new repository of github
+- pod lib create bspatch-ios
+- add/change code
+- check code lint
+    - pod lib lint bspatch-ios.podspec --allow-warnings
+- change the version in bspatch-ios.podspec
+-   s.version          = '0.1.0'
+- add/push new tag, tag name == new version
+    - git tag 0.1.0 && git push --tags
+- pod trunk register "kr.mao@qq.com" "krmao" --description="ios libs of krmao"
+- pod trunk push bspatch-ios.podspec --allow-warnings
+- check is pushed success https://github.com/CocoaPods/Specs/tree/master/Specs
+
 ## Author
 
 krmao, kr.mao@qq.com
