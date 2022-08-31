@@ -51,7 +51,9 @@ NSLog(@"bspatchResult = %d", bspatchResult);
     - git tag 0.1.0 && git push --tags
 - pod trunk register "kr.mao@qq.com" "krmao" --description="ios libs of krmao"
 - pod trunk push bspatch-ios.podspec --allow-warnings
-- check is pushed success https://github.com/CocoaPods/Specs/tree/master/Specs
+- check is pushed success 
+    - https://cocoapods.org/pods/bspatch-ios
+    - https://github.com/CocoaPods/Specs/commits/master/Specs
 
 ## Author
 
