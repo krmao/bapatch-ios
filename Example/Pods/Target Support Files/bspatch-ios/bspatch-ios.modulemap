@@ -1,0 +1,6 @@
+framework module bspatch_ios {
+  umbrella header "bspatch-ios-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'bspatch-ios_Example' do
+  pod 'bspatch-ios', :path => '../'
+
+  target 'bspatch-ios_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

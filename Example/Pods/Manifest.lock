@@ -1,0 +1,16 @@
+PODS:
+  - bspatch-ios (0.1.0)
+
+DEPENDENCIES:
+  - bspatch-ios (from `../`)
+
+EXTERNAL SOURCES:
+  bspatch-ios:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  bspatch-ios: 520d152331ef4b30d3c93071d2a3122d6d094364
+
+PODFILE CHECKSUM: 51a37b1eaa858f5f51195251a26673dfda4a0abb
+
+COCOAPODS: 1.11.3
