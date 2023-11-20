@@ -1,6 +1,6 @@
 # bspatch-android
 ```
-https://github.com/krmao/bspatch/tree/master
+https://github.com/krmao/bspatch
 ```
 
 # bspatch-ios
